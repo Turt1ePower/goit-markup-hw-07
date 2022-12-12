@@ -20,6 +20,10 @@ ol {
 	padding-left: 0;
 }
 
+ul {
+	list-style: none;
+}
+
 button {
 	cursor: pointer;
 }
@@ -28,4 +32,8 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+a {
+	text-decoration: none;
 }
