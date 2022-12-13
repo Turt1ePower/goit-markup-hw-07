@@ -133,10 +133,6 @@ body {
   color: #ffffff;
 }
 
-.site-nav {
-  margin-left: 93px;
-}
-
 .site-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,6 +216,33 @@ body {
 }
 .contact-list__contact:hover .contact-list__icon, .contact-list__contact:focus .contact-list__icon {
   fill: #2196f3;
+}
+
+.hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: #2f303a;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero_bg.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .page-footer {
