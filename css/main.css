@@ -9,10 +9,6 @@
   overflow: hidden;
 }
 
-.title {
-  color: #212121;
-}
-
 p,
 h1,
 h2,
@@ -291,6 +287,14 @@ body {
 
 .main-button__text {
   margin-right: 10px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  color: #212121;
 }
 
 .page-footer {
