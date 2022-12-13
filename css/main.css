@@ -181,6 +181,47 @@ body {
   border-radius: 2px;
 }
 
+.contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-list__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-list__contact:link, .contact-list__contact:visited, .contact-list__contact:active {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-list__contact:hover, .contact-list__contact:focus {
+  color: #2196f3;
+}
+
+.contact-list__icon {
+  margin-right: 10px;
+  fill: #757575;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-list__contact:hover .contact-list__icon, .contact-list__contact:focus .contact-list__icon {
+  fill: #2196f3;
+}
+
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
