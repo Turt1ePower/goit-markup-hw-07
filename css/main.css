@@ -523,10 +523,19 @@ body {
   background-color: #2f303a;
 }
 
-.footer-contacts {
+.page-footer__contacts-block {
   margin-right: 70px;
 }
 
-.footer-address {
-  font-style: normal;
+.page-footer__subscribe-block {
+  min-width: 570px;
+  margin-left: auto;
+}
+
+.page-footer__block-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
