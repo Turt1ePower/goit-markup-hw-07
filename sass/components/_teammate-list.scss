@@ -1,39 +1,41 @@
 
 .teammate-list {
 	display: flex;
+
+	line-height: 1.19;
+	text-align: center;
+
 }
 
-.teammate-card {
+.teammate-list__card {
 	min-width: 270px;
 	padding-bottom: 30px;
 
-	background-color: var(--secondary-color);
+	background-color: $secondary-color;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-		0px 2px 1px rgba(0, 0, 0, 0.2);
+	0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 
-.teammate-card:not(:last-child) {
-	margin-right: 30px;
-}
-
-.teammate-photo {
+.teammate-list__photo {
 	margin-bottom: 30px;
 }
 
-.teammate-name {
+.teammate-list__name {
 	margin-bottom: 10px;
 
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.19;
-	text-align: center;
+
+	color: $title-color;
 }
 
-.teammate-position {
+.teammate-list__position {
 	margin-bottom: 16px;
 
 	font-size: 16px;
-	line-height: 1.19;
-	text-align: center;
 }
