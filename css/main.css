@@ -791,4 +791,49 @@ body {
 }
 .order-form__textarea:hover, .order-form__textarea:focus {
   border-color: #2196f3;
+}
+
+.policy-checkbox {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.policy-checkbox__custom {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  margin-right: 7px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.policy-checkbox__original:focus + .policy-checkbox__custom {
+  border-color: #2196f3;
+}
+.policy-checkbox__original:checked + .policy-checkbox__custom {
+  background-image: url("../images/icon-check.svg");
+  background-color: #2196f3;
+  border-color: transparent;
+  background-origin: border-box;
+  -webkit-box-sizing: cover;
+          box-sizing: cover;
+  background-repeat: no-repeat;
+}
+
+.policy-checkbox__link {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2196f3;
 }/*# sourceMappingURL=main.css.map */
