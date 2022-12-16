@@ -29,9 +29,7 @@
 	padding-left: 24px;
 	padding-right: 24px;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centeredFlex();
 
 	background-color: $portfolio-wrapper-bg;
 
